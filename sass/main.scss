@@ -11,33 +11,21 @@
 
 // 2. Inclusion de nos vendors
 /*
-    Ici, nous n'avons pas de dossier "vendors".
-    En effet, nous utilisons NPM, afin de gérer nos dépendances.
-   
-        /*
-        abstracts/
-        vendors/
-        base/
-        layout/
-        components/
-        pages/
-        themes/
-
-        
-        
-        https://sass-guidelin.es/fr/
-        
+    https://sass-guidelin.es/fr/     
         */
+
+@import
+    'vendors/bootstrap';
 
 
 // ATTENTION A BIEN REMPLIR OU COMMENTER CHAQUE LIGNE
-/*
 
-base/
- _reset.scss        # Reset/normalize
- _typography.scss   # Typography rules
-                    # Etc.
-*/
+
+// base/
+//  _reset.scss        # Reset/normalize
+//  _typography.scss   # Typography rules
+//                     # Etc.
+
 
 
 // 3. Import de la base
@@ -56,10 +44,8 @@ base/
 // 5. Import des components
 @import
     
-    'components/button',
-    'components/accueil',
-    'components/colone',
-    'components/case';
+    'components/button';
+    
     
     
 
